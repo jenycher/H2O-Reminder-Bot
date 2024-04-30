@@ -36,9 +36,9 @@ def help_messsage(message):
                          "Это помощь. Доступные команды:\n/start - начать работу с ботом\n/help - получить помощь\n/fact -  получить факт о воде\n/reminder -  когда будет напоминать")
 
 def send_reminders(chat_id):
-    first_rem = "20:04"
-    second_rem = "20:05"
-    end_rem = "20:06"
+    first_rem = "09:04"
+    second_rem = "14:00"
+    end_rem = "18:00"
 
     while True:
         now = datetime.datetime.now().strftime('%H:%M')
