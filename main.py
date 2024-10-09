@@ -5,7 +5,7 @@ import threading
 import random
 
 # Замените 'YOUR_BOT_TOKEN' на токен, полученный от BotFather
-bot_token = '7113292331:AAEqPWyQgK9eqtZVXFxaSnMwvW5-eTE_gWw'
+bot_token = 'your_bot_token'
 bot = telebot.TeleBot(bot_token)
 
 
